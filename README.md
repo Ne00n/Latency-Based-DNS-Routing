@@ -1,4 +1,4 @@
-Howto for Debian/Ubuntu#
+Howto for Debian/Ubuntu
 
 Beware: This is an experiment!
 
