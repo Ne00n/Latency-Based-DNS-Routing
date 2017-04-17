@@ -4,7 +4,7 @@ Beware: This is an experiment!
 
 1. Get latest PowerDNS from: https://repo.powerdns.com/, should be 4.1+
 
-If you want to see things exploding, feel free to use the 3.1 from the debian responses
+If you want to see things exploding, feel free to use the 3.1 from the debian repos
 
 2. Add these lines to your /etc/powerdns/pdns.conf
 ```
