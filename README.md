@@ -21,7 +21,7 @@ This will redirect all questions to a local running Webserver.
 4. Install nginx, php7, mariadb see here: https://www.vultr.com/docs/setup-up-nginx-php-fpm-and-mariadb-on-debian-8
 
 5. Basic nginx config we used:
-
+```
 server {
     listen 80;
 
@@ -41,7 +41,7 @@ server {
             fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
     }
 }
-
+```
 6. Clone this git repo into /var/www/html/dns/
 
 7. Import the mysql dump, create a user and update config.php
