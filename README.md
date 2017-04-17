@@ -7,13 +7,13 @@ Beware: This is an experiment!
 If you want to see things exploding, feel free to use the 3.1 from the debian responses
 
 2. Add these lines to your /etc/powerdns/pdns.conf
-
+```
 query-cache-ttl=0
 cache-ttl=0
 log-dns-details=no
 launch=remote
 remote-connection-string=http:url=http://dns-req.local:80/dns
-
+```
 This will redirect all questions to a local running Webserver.
 
 3. Restart pdns
