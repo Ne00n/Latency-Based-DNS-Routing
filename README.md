@@ -42,12 +42,16 @@ server {
     }
 }
 ```
-6. Clone this git repo into /var/www/html/dns/
+6. Restart nginx
 
-7. Import the mysql dump, create a user and update config.php
+7. Clone this git repo into /var/www/html/dns/
 
-8. Update index.php and class/Tools.php with your IP addresses
+8. Import the mysql dump, create a user and update config.php
 
-9. Move /remote/ping.php to your external pops, make sure its reachable and update these domains in cron/Runner.php
+9. Update index.php and class/Tools.php with your IP addresses
 
-10. Try a test query with dig @yourDNSIP cdn.yourdomain.com
+10. Move /remote/ping.php to your external pops, make sure its reachable and update these domains in cron/Runner.php
+
+11. Try a test query with dig @yourDNSIP cdn.yourdomain.com
+
+12. Add cron/Destiny to crontab, so it will be executed every 2 mins
