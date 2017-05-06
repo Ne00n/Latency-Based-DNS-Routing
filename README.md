@@ -6,6 +6,8 @@ Beware: This is an experiment!
 
 If you want to see things exploding, feel free to use the 3.1 from the debian repos
 
+1.1 You need also this package: pdns-backend-remote
+
 2. Add these lines to your /etc/powerdns/pdns.conf
 ```
 query-cache-ttl=0
