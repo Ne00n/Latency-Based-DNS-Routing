@@ -2,7 +2,7 @@ Howto for Debian/Ubuntu
 
 Beware: This is an experiment!
 
-1. Get latest PowerDNS from: https://repo.powerdns.com/, should be 4.1+
+1. Get latest PowerDNS from: https://repo.powerdns.com/, should be 4.0+ (PowerDNS Authoritative Server - version 4.0.X)
 
 If you want to see things exploding, feel free to use the 3.1 from the debian repos
 
